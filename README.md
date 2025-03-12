@@ -39,7 +39,7 @@ Content-Type: application/json
 Response:
 ```
 {
-    "expriation_date": "Fri, 11 Apr 2025 22:03:25 GMT",
+    "expiration_date": "Fri, 11 Apr 2025 22:03:25 GMT",
     "short_url": "hLiWzLvmuny0OYhrL34JyI",
     "success": true
 }

@@ -81,7 +81,7 @@ def short_url():
         exact_expiration_date = datetime.fromtimestamp(expiration_date)
 
         save_url(shorten_url,original_url,expiration_date)
-        return jsonify({"short_url": shorten_url,"success":True,"expriation_date":exact_expiration_date}),400
+        return jsonify({"short_url": shorten_url,"success":True,"expiration_date":exact_expiration_date}),400
     
     except sqlite3.Error as e:
         return jsonify({"success":False,"reason":"Database Error", "error": str(e)}),500
