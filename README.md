@@ -19,9 +19,11 @@ This is a simple URL shortener built with Flask and SQLite.
 
 # Docker Instructions
 ## To run the application in a Docker container:
-
+```
 docker pull your-dockerhub-username/short-url-api
 docker run -p 5000:5000 your-dockerhub-username/short-url-api
+```
+
 
 API discribe:
 1. Shorten a URL:
