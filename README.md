@@ -31,7 +31,7 @@ Request:
 POST /shorten
 Content-Type: application/json
 {
-  "original_url": "https://example.com"
+  "original_url": "https://www.google.com.tw/?hl=zh_TW"
 }
 ```
 Response:
