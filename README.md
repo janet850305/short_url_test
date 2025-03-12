@@ -27,21 +27,22 @@ API discribe:
 1. Shorten a URL:
 
 Request:
-
+```
 POST /shorten
 Content-Type: application/json
 {
   "original_url": "https://example.com"
 }
-
+```
 Response:
-
+```
 {
     "expriation_date": "Fri, 11 Apr 2025 22:03:25 GMT",
     "short_url": "hLiWzLvmuny0OYhrL34JyI",
     "success": true
 }
-
+```
 2. Redirect to original URL:
-
+```
 GET /hLiWzLvmuny0OYhrL34JyI
+```
