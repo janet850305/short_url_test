@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+short_urls.db
 
 # MacOS 相關
 .DS_Store
