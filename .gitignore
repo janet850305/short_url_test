@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# MacOS 相關
+.DS_Store
+
+# VSCode 相關（如果你用 VSCode）
+.vscode/
